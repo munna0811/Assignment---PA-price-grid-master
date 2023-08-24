@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+body{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-color: hsl(204, 43%, 93%);
+    font-family: 'Karla', sans-serif;
+}
+.App{
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+.container--join{
+    width: 30rem;
+    background-color: white;
+    padding: 2.5rem;
+    line-height: 1.5rem;
+}
+.heading--join1{
+    color: hsl(179, 62%, 43%);
+    font-size: 1.5rem;
+}
+.heading--join2{
+    color: hsl(71, 73%, 54%);
+    font-size: 1.3rem;
+}
+.para--join{
+    color: hsl(218, 22%, 67%) ;
+    font-size: 0.9rem;
+}
+.container--subscription{
+    width: 25rem;
+    display: flex;
+}
+.container--main--subscription{
+    background-color: hsl(179, 62%, 43%);
+    width: 27rem;
+    color: whitesmoke;
+    padding: 1.8rem;
+}
+.heading--subscription2{
+    font-size: 1rem;
+}
+.heading--subscription3{
+    font-size: 1.7rem;
+    display: inline;
+}
+.para--subscription1{
+    font-size: 0.9rem;
+    color: hsl(169, 57%, 78%);
+    display: inline;
+    padding-left: 1rem ;
+}
+.para--subscription2{
+    width: 15rem;
+    font-size: 0.9rem;
+}
+.button{
+    width: 15rem;
+    background-color: hsl(71, 73%, 54%);
+    border: none;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    color: whitesmoke;
+    
+}
+.container--why{
+    width: 13.2rem;
+    height: 11.4rem;
+    background-color: hsla(179, 62%, 43%,0.8) ;
+    color: whitesmoke;
+    padding: 1.8rem;
+}
+.heading--why{
+    font-size: 1rem;
+}
+.para--why{
+    font-size: 0.8rem;
+    width: 12rem;
+    line-height: 1.2rem;
+    color: hsl(169, 57%, 78%);
+}
+@media only screen and (max-width:475px) {
+    .container--join{
+        width: 20rem;
+    }
+    
+    .container--subscription{
+        flex-direction: column;
+        width: 20rem;
+    }
+    .container--why{
+        width: 25rem;
+    }
+}
